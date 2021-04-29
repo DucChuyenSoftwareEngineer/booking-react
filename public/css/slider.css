@@ -1,0 +1,40 @@
+.section_content {
+	margin-top: 25px;
+}
+
+.section_slider {
+	position: relative;
+	height: 100%;
+}
+
+.section_slider .swiper-container {
+	width: 100%;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.swiper-slide {
+	background-size: cover;
+	background-position: center;
+}
+
+.gallery-top {
+	height: 100%;
+	width: 100%;
+}
+
+.gallery-thumbs {
+
+	box-sizing: border-box;
+	padding: 10px 0;
+}
+
+.gallery-thumbs .swiper-slide {
+	height: 40%;
+	opacity: 0.4;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+	opacity: 1;
+}

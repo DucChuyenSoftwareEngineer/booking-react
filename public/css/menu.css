@@ -1,0 +1,13 @@
+.logo {
+	color: white;
+	font-weight: 700;
+}
+
+.list_menu a, .list_menu p {
+	color: darkgray;
+}
+
+.list_menu a:hover {
+	color: white;
+	text-decoration: none;
+}

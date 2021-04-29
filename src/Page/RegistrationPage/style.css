@@ -1,0 +1,57 @@
+body {
+	/*background-image: url(../hinhanh/1.jpg); */
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: center;
+	font-size: 12px;
+	color: #324A61;
+	font-weight: bold;
+}
+
+.hinhnen {
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	height: 580px;
+
+
+}
+
+.dangnhap {
+	background-color: #C4CBD3;
+	width: 85%;
+	height: 450px;
+	position: absolute;
+	opacity: 0.9
+
+
+}
+
+.chu {
+	color: #324A61;
+	font-weight: bold;
+
+}
+
+.chu1 {
+	font-size: 12px;
+	color: #324A61;
+	font-weight: bold;
+	margin-top: 19px;
+}
+
+.gach {
+	width: 100%;
+	color: #9B9C97;
+	border-bottom: 1px solid;
+}
+
+a {
+	font-size: 12px;
+	color: #324A61;
+	font-weight: bold;
+}

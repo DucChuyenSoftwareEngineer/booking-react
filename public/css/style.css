@@ -1,0 +1,107 @@
+.logo {
+	color: white;
+	font-weight: 700;
+}
+
+.item {
+	width: 70%;
+	margin: auto;
+	align-items: center;
+}
+
+.setion_menu a, .setion_menu p {
+	color: darkgray;
+}
+
+.setion_menu a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.section-timkiem {
+	margin-top: 20px;
+}
+
+.section_danhsach {
+	position: relative;
+	text-align: center;
+	padding-bottom: 45px;
+}
+
+.section_danhsach p {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 4px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.section_danhsach h6 {
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 35px;
+	font-weight: 700;
+	color: #EF7733;
+}
+
+.section_danhsach::after {
+	content: '';
+	position: absolute;
+	width: 65px;
+	height: 4px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	background: #2866B0;
+	transition: all ease 0.5s;
+}
+
+.mt20 {
+	margin-top: 40px;
+}
+
+.section_danhsach:hover:after {
+	width: 100px;
+}
+
+.tieude {
+	padding: 16px;
+}
+
+.tieude a strong {
+	color: black;
+	text-decoration: none;
+}
+
+.tieude a strong:hover {
+	color: #EF7733;
+}
+
+.tieude p {
+	color: darkgray;
+}
+
+a {
+	text-decoration: none;
+}
+
+.gia {
+	margin-top: -23px;
+	text-align: center;
+	margin-bottom: 20px
+}
+
+p Strong {
+	color: #EF7733;
+}
+
+.phong {
+	margin-bottom: 20px;
+	box-shadow: 0 3px 14px 0 rgb(0 0 0 / 7%);
+}
+
+.loader {
+	display: inline-block;
+	margin: 0 auto;
+}

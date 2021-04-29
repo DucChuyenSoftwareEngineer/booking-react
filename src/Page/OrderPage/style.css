@@ -1,0 +1,46 @@
+/*Slider*/
+.section_slider {
+	position: relative;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.section_slider_background {
+	position: relative;
+	height: 250px;
+	width: 100%;
+	border-radius: 0px 0px 15px 15px;
+	overflow: hidden;
+
+}
+
+.section_slider_background img {
+	width: 100%;
+	/* height: 300px; */
+	transform: scale(1.5);
+	object-position: 0px -355px;
+	FONT-WEIGHT: 100;
+}
+
+.section_slider_logo {
+	position: absolute;
+	top: 45%;
+	left: 45%;
+	text-align: 45%;
+
+}
+
+/*content*/
+
+.item_import {
+	width: 70%;
+}
+
+.error {
+	font-size: 12px;
+	line-height: 29px;
+	font-weight: 700;
+	margin: 0px 12px;
+	color: #FA0109;
+
+}

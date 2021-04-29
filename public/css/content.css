@@ -1,0 +1,139 @@
+.section_tieude {
+	margin-top: 20px;
+}
+
+.section_name {
+	display: flex;
+	align-items: center;
+}
+
+.hotel_name {
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.hp_hotel {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 18px;
+	vertical-align: middle;
+	margin-top: -5px;
+	padding: 0 4px;
+	border-radius: 3px;
+	background: #aeaeae;
+	color: #fff;
+}
+
+.star {
+	font-size: 12px;
+	color: gold;
+	margin-left: 5px;
+}
+
+.like {
+	color: white;
+	background: gold;
+	width: 22px;
+	text-align: center;
+}
+
+.motorcycle {
+	border: 1px solid #0071c2;
+	height: 22px;
+	width: 22px;
+	margin-left: 5px;
+	text-align: center;
+	line-height: 25px;
+	background: #fff;
+	border-radius: 22px;
+}
+
+.motorcycle i {
+	text-align: center;
+	width: 18px;
+}
+
+.people {
+	background: #EBF3FF;
+	font-size: 13px;
+}
+
+.section_maps {
+	display: flex;
+}
+
+.maps {
+	font-size: 23px;
+	margin-right: 5px
+}
+
+.maps:hover {
+	color: blue;
+}
+
+.maps_nhan {
+	color: #005CB6;
+	font-weight: 700;
+	text-decoration: revert;
+}
+
+.modal-header {
+	border-bottom: none;
+}
+
+.name_maps {
+	color: blue;
+}
+
+.timkiem {
+	background-color: #FEBB02;
+	border-radius: 2px;
+	margin-top: 40px;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.tim {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.tieude_tim {
+	font-size: 10px;
+	margin-bottom: 1px;
+}
+
+.nhan_timkiem {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.conten_chitiet {
+	margin-top: -197px;
+}
+
+.tieude_noidung1 {
+	color: #B65800;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.hotel_khachsan {
+	padding: 15px;
+	background-color: #EBF3FF;
+}
+
+.vitri {
+	display: flex;
+}
+
+.vitri p {
+	font-size: 14px;
+}
+
+.loaidv {
+	padding: 0px 15px;
+	margin-bottom: 10px;
+}
