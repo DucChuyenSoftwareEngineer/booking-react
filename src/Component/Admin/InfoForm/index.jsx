@@ -23,60 +23,59 @@ class InfoForm extends PureComponent {
 			<form autoComplete="off" onSubmit={handleSubmit(this.handleSubmit)}>
 				<div className="item">
 					<div className="row">
-						<div className="col-6">
-							<div className=" mb-3 row">
+						<div className="row col-8">
+							<div className=" mb-3 col-6 ">
 								<Field type="text"
 										component={InputField}
 										name="fullName"
 										label="Họ & Tên"
 										className="form-control" />
 							</div>
-							<div className=" mb-3 row">
+							<div className=" mb-3 col-6 ">
 								<Field type="text"
 										component={InputField}
 										name="idCard"
 										label="CMDN"
 										className="form-control" />
 							</div>
-							<div className=" mb-3 row">
+							<div className=" mb-3 col-6 ">
 								<Field type="text"
 										component={InputField}
 										name="address"
 										label="Địa Chỉ"
 										className="form-control" />
 							</div>
-							<div className=" mb-3 row">
+							<div className=" mb-3 col-6">
 								<Field type="text"
 										component={InputField}
 										name="email"
 										label="email"
 										className="form-control" />
 							</div>
-							<div className=" mb-3 row">
+							<div className=" mb-3 col-6">
 								<Field type="text"
 										component={InputField}
 										name="phone"
 										label="Điện thoại"
 										className="form-control" />
 							</div>
-							<div className=" mb-3 row">
+							<div className=" mb-3 col-6">
 								<Field type="text"
 										component={InputField}
 										name="map"
 										label="Địa chỉ trên bản đồ"
 										className="form-control" />
 							</div>
-							<div className=" mb-3 row">
-								<div className="col-sm-7 m-auto">
+							<div className=" mb-3">
+								<div className="col-sm-4">
 									<button type="submit"
-											className="btn btn-primary w-100 "
-											style={{ marginLeft: "25px" }}>
+											className="btn btn-primary w-100">
 										Sửa
 									</button>
 								</div>
 							</div>
 						</div>
-						<div className="col-6"
+						<div className="col-3"
 						style={{
 							display: "flex",
 							flexDirection: "column",

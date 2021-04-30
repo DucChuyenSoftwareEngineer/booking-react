@@ -35,11 +35,11 @@ class App extends PureComponent {
 					...routeProps
 				};
 
-				if (userInfo) {
+				// if (userInfo) {
 					child = <item.main {...childProps} />;
-				} else {
-					child = <LoginPage {...childProps} />;
-				}
+				// } else {
+				// 	child = <LoginPage {...childProps} />;
+				// }
 
 				return this.renderLayout(pageTitle, userInfo, child);
 			}} />

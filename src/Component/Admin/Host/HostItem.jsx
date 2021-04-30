@@ -15,13 +15,14 @@ class HostItem extends PureComponent {
 	};
 
 	render() {
-		const { host: { fullName, email, phone } } = this.props;
+		const { host: { fullName, email, phone,active } } = this.props;
 
 		return (
 			<tr>
 				<th>{fullName}</th>
 				<td>{email}</td>
 				<td>{phone}</td>
+				<td><button type="button" className="btn btn-success"></td>{ active===1 ? 'Đang hoạt động': 'Bị khóa'}</button> </td>
 				<td>
 					<a href="#" onClick={this.viewHostDetail}>
 						Chi tiết
@@ -37,7 +38,8 @@ HostItem.propTypes = {
 	host: PropTypes.shape({
 		fullName: PropTypes.string,
 		email: PropTypes.string,
-		phone: PropTypes.string
+		phone: PropTypes.string,
+		active:PropTypes.string
 	})
 };
 

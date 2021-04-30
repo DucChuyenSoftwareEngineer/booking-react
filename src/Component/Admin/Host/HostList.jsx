@@ -18,20 +18,43 @@ class HostList extends PureComponent {
 		if (event) {
 			event(data);
 		}
+
 	};
 
 	render() {
-		const { listHost } = this.props;
+		 let { listHost } = this.props;
+		 listHost =[
+			{
+				"fullName":"chu phong 1",
+				"email":"chung1.com",
+				"phone":"099393939",
+				"active":1
+			},
+			{
+				"fullName":"chu phong 2",
+				"email":"chungieng@gmail.com",
+				"phone":"0245s93939",
+				"acive":0
+			},
+			{
+				"fullName":"chu phong 3",
+				"email":"ieng@gmail.com",
+				"phone":"0788839",
+				"active":1
+			}
+
+	]
 
 		return (
 			<div className="item">
-				<div className="w-100" style={{overflowY: "scroll", height: "250px"}}>
+				<div className="w-100">
 					<table className="table" id="tblHost">
 						<thead>
 						<tr>
 							<th scope="col">Tên</th>
 							<th scope="col">Email</th>
 							<th scope="col">Số Điện Thoại</th>
+							<th scope="col">Trạng Thái</th>
 							<th scope="col">&nbsp;</th>
 						</tr>
 						</thead>

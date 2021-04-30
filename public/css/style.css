@@ -4,9 +4,12 @@
 }
 
 .item {
-	width: 70%;
-	margin: auto;
-	align-items: center;
+	padding: 24px;
+
+    width: 80%;
+    margin: auto;
+    text-align: left;
+
 }
 
 .setion_menu a, .setion_menu p {

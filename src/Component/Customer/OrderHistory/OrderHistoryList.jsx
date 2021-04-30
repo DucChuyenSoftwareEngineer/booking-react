@@ -25,7 +25,7 @@ class OrderHistoryList extends PureComponent {
 
 		return (
 			<div className="item">
-				<div className="w-100" style={{overflowY: "scroll", height: "250px"}}>
+				<div className="w-100" >
 					<table className="table" id="tblHistory">
 						<thead>
 						<tr>
