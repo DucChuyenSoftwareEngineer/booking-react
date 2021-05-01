@@ -22,7 +22,6 @@ class HostItem extends PureComponent {
 				<th>{fullName}</th>
 				<td>{email}</td>
 				<td>{phone}</td>
-				<td><button type="button" className="btn btn-success"></td>{ active===1 ? 'Đang hoạt động': 'Bị khóa'}</button> </td>
 				<td>
 					<a href="#" onClick={this.viewHostDetail}>
 						Chi tiết
